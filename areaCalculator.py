@@ -6,3 +6,5 @@ def greeting(self):
 
 
 def chooseShape(self):
+    shape_choice = input(
+        "Enter S for a square, C for circle, or T for triangle!")
