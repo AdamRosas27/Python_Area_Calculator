@@ -2,6 +2,8 @@
 # Imports the math module to be able to use pi
 import math
 
+# Shape class
+
 
 class Shape:
 
