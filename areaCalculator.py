@@ -11,6 +11,7 @@ class Shape:
     def greeting():
         print("Hello there! I am AreaCalculator 1.0. Please select a shape and I'll calculate the area for you.")
 
+    # Method that prompts the user to enter a letter to choose which shape they want
     def chooseShape():
         shape_choice = input(
             "Enter S for a square, C for circle, or T for triangle!")
