@@ -12,3 +12,5 @@ def chooseShape(self):
 
 
 def findArea(self, shape_choice):
+    if shape_choice == "c":
+        radius = input("Enter the radius of the circle.")
