@@ -16,4 +16,4 @@ def chooseShape(self):
 def findArea(self, shape_choice):
     if shape_choice == "c":
         radius = float(input("Enter the radius of the circle."))
-        cArea =
+        cArea = math.pi * (radius**2)
