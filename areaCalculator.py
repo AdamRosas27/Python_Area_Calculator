@@ -17,6 +17,7 @@ class Shape:
             "Enter S for a square, C for circle, or T for triangle!")
         return shape_choice.lower()
 
+    # Method that takes in the user input and make sure the input is valid, if it is it will do the calculations for the area, if not it will throw an exception
     def findArea():
         if shape_choice == "c":
             radius = float(input("Enter the radius of the circle."))
