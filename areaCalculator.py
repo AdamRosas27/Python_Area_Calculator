@@ -3,17 +3,18 @@
 import math
 
 
-def greeting(self):
-    print("Hello there! I am AreaCalculator 1.0. Please select a shape and I'll calculate the area for you.")
+class Shape:
 
+    def greeting():
+        print("Hello there! I am AreaCalculator 1.0. Please select a shape and I'll calculate the area for you.")
 
-def chooseShape(self):
-    shape_choice = input(
-        "Enter S for a square, C for circle, or T for triangle!")
-    return shape_choice.lower()
+    def chooseShape():
+        shape_choice = input(
+            "Enter S for a square, C for circle, or T for triangle!")
+        return shape_choice.lower()
 
-
-def findArea(self, shape_choice):
-    if shape_choice == "c":
-        radius = float(input("Enter the radius of the circle."))
-        cArea = math.pi * (radius**2)
+    def findArea():
+        if shape_choice == "c":
+            radius = float(input("Enter the radius of the circle."))
+            cArea = math.pi * (radius**2)
+            return ("The area of the circle is: {cArea}".format(cArea))
