@@ -1,5 +1,7 @@
 """A simple area calculator that will ask the user to choose a shape, calculate the area of the shape, and return the area of the chosen shape."""
 
+import math
+
 
 def greeting(self):
     print("Hello there! I am AreaCalculator 1.0. Please select a shape and I'll calculate the area for you.")
@@ -13,4 +15,5 @@ def chooseShape(self):
 
 def findArea(self, shape_choice):
     if shape_choice == "c":
-        radius = input("Enter the radius of the circle.")
+        radius = float(input("Enter the radius of the circle."))
+        cArea =
