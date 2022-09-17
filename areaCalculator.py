@@ -7,6 +7,7 @@ import math
 
 class Shape:
 
+    # Greeting method that will welcome the user
     def greeting():
         print("Hello there! I am AreaCalculator 1.0. Please select a shape and I'll calculate the area for you.")
 
