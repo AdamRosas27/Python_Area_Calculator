@@ -23,3 +23,6 @@ class Shape:
             radius = float(input("Enter the radius of the circle."))
             cArea = math.pi * (radius**2)
             return ("The area of the circle is: {cArea}".format(cArea))
+
+
+class Circle:
