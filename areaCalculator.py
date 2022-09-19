@@ -29,4 +29,6 @@ class Shape:
 
 class Circle:
 
+
+class Triangle:
     # Triangle class
